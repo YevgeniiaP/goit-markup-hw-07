@@ -1,0 +1,49 @@
+.address-section {
+  width: 231px;
+  margin-top: 20px;
+}
+
+.address-section .address-section-item {
+  list-style-type: none;
+  margin-bottom: 9px;
+}
+
+.address-section-item:last-child {
+  margin-bottom: 0px;
+}
+
+.address-section-item .adress-item {
+  text-decoration: none;
+}
+
+.exact-adress-item {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--logo-color-footer);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adress-item {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--footer-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-section .address-section-item .adress-item:hover,
+.adress-item:focus,
+.adress-item:active {
+  color: var(--logo-color-main);
+}
+
+.address-section .address-section-item .exact-adress-item:hover,
+.exact-adress-item:focus,
+.exact-adress-item:active {
+  color: var(--logo-color-main);
+}
