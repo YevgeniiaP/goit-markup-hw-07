@@ -1,11 +1,8 @@
-.subscribe-section {
+.emailing-section {
   margin-left: 93px;
 }
 
-.subscribe-area {
-  display: flex;
-}
-.subscribe-title {
+.emailing-section-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -15,7 +12,11 @@
   margin-bottom: 20px;
 }
 
-.email-filling {
+.emailing-container {
+  display: flex;
+}
+
+.emailing-container-filling {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -28,7 +29,7 @@
   color: var(--logo-color-footer);
 }
 
-.submit-button {
+.emailing-submit-button {
   width: 200px;
   height: 50px;
   font-weight: bold;
@@ -47,6 +48,6 @@
   margin-left: 12px;
 }
 
-.submit-icon {
+.emailing-submit-icon {
   margin-left: 10px;
 }

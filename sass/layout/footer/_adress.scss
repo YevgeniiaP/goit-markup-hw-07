@@ -1,22 +1,14 @@
-.address-section {
+.address-section-list {
   width: 231px;
   margin-top: 20px;
 }
 
-.address-section .address-section-item {
+.address-section-list .address-section-list-item {
   list-style-type: none;
   margin-bottom: 9px;
 }
 
-.address-section-item:last-child {
-  margin-bottom: 0px;
-}
-
-.address-section-item .adress-item {
-  text-decoration: none;
-}
-
-.exact-adress-item {
+.address-section-list-item {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -24,9 +16,18 @@
   color: var(--logo-color-footer);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--logo-color-main);
+  }
 }
 
-.adress-item {
+.address-section-list-item:last-child {
+  margin-bottom: 0px;
+}
+
+.address-section-list-item-link {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -34,16 +35,13 @@
   color: var(--footer-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--logo-color-main);
+  }
 }
 
-.address-section .address-section-item .adress-item:hover,
-.adress-item:focus,
-.adress-item:active {
-  color: var(--logo-color-main);
-}
-
-.address-section .address-section-item .exact-adress-item:hover,
-.exact-adress-item:focus,
-.exact-adress-item:active {
-  color: var(--logo-color-main);
+.address-section-list-item .address-section-list-item-link {
+  text-decoration: none;
 }
