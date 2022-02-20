@@ -9,7 +9,7 @@
   }
 }
 
-.portfolio-list-item {
+.portfolio-list__item {
   list-style-type: none;
   flex-basis: calc((100% - 90px) / 3);
   margin-right: 30px;
@@ -52,7 +52,7 @@
   height: 100%;
   transform: translateY(101%);
   transition: transform 250ms;
-  .portfolio-list-item:hover & {
+  .portfolio-list__item:hover & {
     transform: translateY(0);
   }
 }
@@ -66,14 +66,14 @@
   padding-left: 24px;
 }
 
-.description-name {
+.description-container__name {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.description-text {
+.description-container__text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;

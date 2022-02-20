@@ -12,7 +12,7 @@
   }
 }
 
-.site-nav-list-item {
+.site-nav-list__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-.site-nav-list-item-link {
+.site-nav-list__item__link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -48,6 +48,6 @@
   }
 }
 
-.site-nav-list-item-link:visited {
+.site-nav-list__item__link:visited {
   color: var(--nav-color);
 }

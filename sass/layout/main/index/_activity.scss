@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.activity-section-title {
+.activity-section__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -20,7 +20,7 @@
   margin-right: auto;
 }
 
-.activity-list-items {
+.activity-list__items {
   width: 1170px;
   list-style-type: none;
   margin-right: 30px;
@@ -30,7 +30,7 @@
   }
 }
 
-.activity-overlay {
+.activity-list__items__overlay {
   width: 100%;
   font-size: 14px;
   line-height: 1.14;

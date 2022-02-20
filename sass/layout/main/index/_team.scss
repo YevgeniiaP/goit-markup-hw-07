@@ -4,7 +4,7 @@
   padding-bottom: 94px;
 }
 
-.team-title {
+.team-section__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -13,10 +13,10 @@
   margin-bottom: 50px;
 }
 
-.team-list {
+.team-section__list {
   display: flex;
 }
-.team-list-items {
+.team-section__list__items {
   width: 270px;
   list-style-type: none;
   margin-right: 30px;
@@ -39,7 +39,7 @@
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.personal-information-title {
+.personal-information-container__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-.personal-information-text {
+.personal-information-container__text {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;

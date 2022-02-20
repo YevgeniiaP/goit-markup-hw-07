@@ -3,12 +3,12 @@
   margin-top: 20px;
 }
 
-.address-section-list .address-section-list-item {
+.address-section-list .address-section-list__item {
   list-style-type: none;
   margin-bottom: 9px;
 }
 
-.address-section-list-item {
+.address-section-list__item {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -23,11 +23,11 @@
   }
 }
 
-.address-section-list-item:last-child {
+.address-section-list__item:last-child {
   margin-bottom: 0px;
 }
 
-.address-section-list-item-link {
+.address-section-list__item__link {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -42,6 +42,6 @@
   }
 }
 
-.address-section-list-item .address-section-list-item-link {
+.address-section-list__item .address-section-list__item__link {
   text-decoration: none;
 }

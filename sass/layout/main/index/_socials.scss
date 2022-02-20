@@ -4,7 +4,7 @@
   margin-top: 16px;
 }
 
-.socials-list-item {
+.socials-list__item {
   list-style-type: none;
   margin-right: 10px;
   &:last-child {
@@ -12,7 +12,7 @@
   }
 }
 
-.socials-list-item-link {
+.socials-list__item__link {
   border-radius: 50%;
   display: block;
   display: flex;
@@ -26,13 +26,13 @@
   }
 }
 
-.socials-logo {
+.socials-list__item__link__logo {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
   padding: 12px;
-  .socials-list-item-link:hover &,
-  .socials-list-item-link:focus & {
+  .socials-list__item__link:hover &,
+  .socials-list__item__link:focus & {
     fill: var(--logo-color-footer);
   }
 }

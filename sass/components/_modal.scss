@@ -34,7 +34,7 @@
   }
 }
 
-.modal-close {
+.modal__close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -46,7 +46,7 @@
   padding: 6px;
 }
 
-.modal-close-sign {
+.modal__close-icon {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -55,7 +55,7 @@
   }
 }
 
-.modal-title {
+.modal__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -65,11 +65,11 @@
   margin-bottom: 12px;
 }
 
-.modal-field {
+.modal__field {
   margin-top: 10px;
 }
 
-.modal-lable {
+.modal__lable {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -78,11 +78,11 @@
   margin-bottom: 4px;
 }
 
-.input-wrapper {
+.modal__input-wrapper {
   position: relative;
 }
 
-.modal-input {
+.modal__input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
@@ -91,18 +91,18 @@
   }
 }
 
-.model-icon {
+.model__icon {
   position: absolute;
   left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  .modal-input:focus + & {
+  .modal__input:focus + & {
     fill: var(--logo-color-main);
   }
 }
 
-.modal-input,
-.modal-text {
+.modal__input,
+.modal__text {
   outline: none;
   width: 100%;
   height: 40px;
@@ -116,7 +116,7 @@
   letter-spacing: 0.01em;
 }
 
-.modal-text {
+.modal__text {
   height: 120px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -132,7 +132,7 @@
   }
 }
 
-.modal-check-text {
+.modal__check-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -154,25 +154,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .modal-check:checked + & {
+    .modal__check:checked + & {
       background-color: var(--logo-color-main);
       border: none;
     }
   }
 }
 
-.check-icon {
+.modal__check-icon {
   fill: transparent;
-  .modal-check:checked + .modal-check-text & {
+  .modal__check:checked + .modal__check-text & {
     fill: #ffffff;
   }
 }
 
-.modal-check-agreement:visited {
+.modal__check-agreement:visited {
   color: var(--logo-color-main);
 }
 
-.modal-button {
+.modal__button-send {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
